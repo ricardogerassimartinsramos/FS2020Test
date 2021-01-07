@@ -1,0 +1,33 @@
+<AssetPackage Name="mycompany-aircraft-wasm-gauge-gdiplus" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>AIRCRAFT</ContentType>
+		<Title>Gdiplus Aircraft</Title>
+		<Manufacturer>My Manufacturer</Manufacturer>
+		<Creator>My Company</Creator>
+		<Description/>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>true</VisibleInStore>
+		<CanBeReferenced>true</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\mycompany-aircraft-wasm-gauge-gdiplus\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\mycompany-aircraft-wasm-gauge-gdiplus\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="MyCompany_GdiPlus_Aircraft">
+			<Type>SimObject</Type>
+			<AssetDir>PackageSources\SimObjects\Airplanes\MyCompany_GdiPlus_Aircraft\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\MyCompany_GdiPlus_Aircraft\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="MyCompany_GdiPlus_Aircraft_Data">
+			<Type>Copy</Type>
+			<AssetDir>PackageSources\Data\</AssetDir>
+			<OutputDir>Data\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>

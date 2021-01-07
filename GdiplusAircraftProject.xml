@@ -1,0 +1,7 @@
+<Project Version="2" Name="GaugeAircraftProject" FolderName="Packages">
+	<OutputDirectory>.</OutputDirectory>
+	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+	<Packages>
+		<Package>PackageDefinitions\mycompany-aircraft-wasm-gauge-gdiplus.xml</Package>
+	</Packages>
+</Project>
